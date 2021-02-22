@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 
 export class NavComponent implements OnInit {
 
+  projectName: string = 'Demo';
+  
   constructor() { }
 
   ngOnInit(): void {
